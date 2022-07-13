@@ -1,13 +1,15 @@
 <template>
-  <div>
-    <h3>Список пользователей</h3>
+  <div v-if="posts.length > 0">
+    <h3>Список постов</h3>
     <PostItem
       v-for="post in posts"
       :key="post.id"
       :post="post"
+      @remove="$emit('remove', post)"
     />
 
   </div>
+  <h2 v-else style="color: red;">Список постов пуст</h2>
 </template>
 
 <script>
