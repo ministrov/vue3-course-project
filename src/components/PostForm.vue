@@ -13,7 +13,13 @@
       type="text"
       placeholder="Описание"
     >
-    <button class="btn" @click="createPost">Создать</button>
+    <MyButton
+      class="btn"
+      @click="createPost"
+      style="align-self: flex-end; margin-top: 15px;"
+    >
+      Создать
+    </MyButton>
   </form>
 </template>
 
@@ -22,19 +28,19 @@ export default {
   data() {
     return {
       post: {
-        title: '',
-        body: ''
+        title: "",
+        body: ""
       }
-    }
+    };
   },
   methods: {
     createPost() {
-      this.post.id = Date.now()
-      this.$emit('create', this.post)
+      this.post.id = Date.now();
+      this.$emit("create", this.post);
       this.post = {
-        title: '',
-        body: ''
-      }
+          title: "",
+          body: ""
+      };
     }
   }
 }
@@ -50,15 +56,5 @@ form {
   margin-top: 15px;
   padding: 10px 15px;
   border: 1px solid teal;
-}
-.btn {
-  align-self: flex-end;
-  margin-top: 15px;
-  padding: 10px 15px;
-  color: teal;
-  border: none;
-  background: transparent;
-  border: 1px solid teal;
-  border-radius: 6px;
 }
 </style>
