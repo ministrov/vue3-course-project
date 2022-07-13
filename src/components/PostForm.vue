@@ -14,7 +14,6 @@
       placeholder="Описание"
     >
     <MyButton
-      class="btn"
       @click="createPost"
       style="align-self: flex-end; margin-top: 15px;"
     >

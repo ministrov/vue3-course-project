@@ -6,11 +6,11 @@
 
 <script>
 export default {
-  name: 'my-button'
+  name: 'MyButton'
 }
 </script>
 
-<style>
+<style scoped>
 .btn {
   padding: 10px 15px;
   color: teal;
