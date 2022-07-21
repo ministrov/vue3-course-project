@@ -32,5 +32,7 @@ export default {
 </script>
 
 <style scoped>
-
+select {
+  font-family: 'Roboto', sans-serif;
+}
 </style>

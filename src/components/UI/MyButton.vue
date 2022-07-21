@@ -13,6 +13,7 @@ export default {
 <style scoped>
 .btn {
   padding: 10px 15px;
+  font-family: 'Roboto', sans-serif;
   color: teal;
   border: none;
   background: transparent;
