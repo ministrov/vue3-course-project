@@ -30,9 +30,9 @@ export default {
 }
 .dialog__content {
   min-height: 50px;
-  min-width: 300px;
+  min-width: 400px;
   margin: auto;
-  padding: 20px;
+  padding: 25px;
   font-family: 'Roboto', sans-serif;
   background: white;
   border-radius: 12px;

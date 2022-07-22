@@ -27,4 +27,8 @@ export default {
   border: 1px solid teal;
   border-radius: 6px;
 }
+.input:hover,
+.input:focus {
+  border-color: aqua;
+}
 </style>
