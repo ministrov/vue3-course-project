@@ -21,6 +21,10 @@ export default {
   width: 100%;
   margin-top: 15px;
   padding: 10px 15px;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  outline: none;
   border: 1px solid teal;
+  border-radius: 6px;
 }
 </style>

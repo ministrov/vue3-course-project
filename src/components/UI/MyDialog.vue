@@ -33,6 +33,7 @@ export default {
   min-width: 300px;
   margin: auto;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
   background: white;
   border-radius: 12px;
 }

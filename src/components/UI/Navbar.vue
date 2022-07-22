@@ -18,6 +18,7 @@ export default {}
   display: flex;
   align-items: center;
   height: 50px;
+  font-family: 'Roboto', sans-serif;
   padding: 0 15px;
   background-color: lightgray;
   box-shadow: 2px 2px 4px gray;

@@ -23,5 +23,6 @@ export default {
 }
 .app {
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 </style>
