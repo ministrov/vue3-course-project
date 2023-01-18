@@ -5,6 +5,7 @@
       <MyButton @click="$router.push('/posts')">Посты</MyButton>
       <MyButton @click="$router.push('/about')" style="margin-left: 20px;">О сайте</MyButton>
       <MyButton @click="$router.push('/composition')" style="margin-left: 20px;">Composition Api</MyButton>
+      <MyButton @click="$router.push('/blog')" style="margin-left: 20px;">Блог</MyButton>
     </div>
   </div>
 </template>
@@ -17,7 +18,7 @@ export default {}
 .navbar {
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 75px;
   font-family: 'Roboto', sans-serif;
   padding: 0 15px;
   background-color: lightgray;

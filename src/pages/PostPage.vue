@@ -56,7 +56,7 @@ export default {
     PostForm,
     MyDialog,
     MyInput
-},
+  },
   data() {
     return {
       posts: [],

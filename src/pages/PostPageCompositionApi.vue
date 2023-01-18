@@ -96,6 +96,7 @@ export default {
   margin-top: 15px;
 }
 .page {
+  margin-right: 10px;
   padding: 10px;
   border: 1px solid teal;
 }
