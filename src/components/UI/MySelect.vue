@@ -33,6 +33,16 @@ export default {
 
 <style scoped>
 select {
+  padding: 10px 15px;
   font-family: 'Roboto', sans-serif;
+  color: teal;
+  border: none;
+  background: transparent;
+  border: 1px solid teal;
+  border-radius: 6px;
+}
+
+select:focus {
+  border: 1px solid blue
 }
 </style>
